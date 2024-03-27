@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* Set font family for the whole document */
+    background-color: #f4f4f4; /* Set background color */
+    background-image: url(./smoothie1.jpeg); 
+}
+
+h1, h2 {
+    text-align: center; /* Center-align heading elements */
+    text-decoration: double; /* Apply double underline to headings */
+    color: rgb(147, 99, 36); 
+}
+
+form {
+    max-width: 400px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center-align the form */
+    background-color: #cad533; 
+    background-image: url(./smoothie2.jpeg); 
+    padding: 20px; /* Add padding to the form */
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Apply box shadow to the form */
+}
+
+.ingredient {
+    margin-bottom: 10px; /* Add bottom margin to ingredient divs */
+    background: #f68db3; 
+    color: rgb(5, 113, 113); /* Set text color for ingredient divs */
+}
+
+button {
+    display: block; /* Make the button a block element */
+    margin: 20px auto; /* Center-align the button */
+    padding: 10px 20px; 
+    background-color: #007bff; /* Set background color for the button */
+    color: #f20f0f; /* Set text color for the button */
+    border: none; 
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+#smoothie-output {
+    background-image: url(./smoothie3.jpeg); /* Set background image for the smoothie output div */
+    color: rgb(17, 148, 148); /* Set text color for the smoothie output div */
+    max-width: 400px;
+    margin: 20px auto; /* Center-align the smoothie output div */
+    padding: 20px; 
+    border-radius: 8px; /* Apply border radius to the smoothie output div */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Apply box shadow to the smoothie output div */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Machine</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css"> 
+    
+</head>
+<body>
+    <h1>Welcome to the Smoothie Machine!</h1>
+    <form id="smoothie-form">
+        <h2>Choose your ingredients from below:</h2>
+        <div class="ingredient">
+            <input type="checkbox" id="banana" name="ingredient" value="Banana">
+            <label for="banana">Banana</label>
+        </div>
+        <div class="ingredient">
+            <input type="checkbox" id="strawberry" name="ingredient" value="Strawberry">
+            <label for="strawberry">Strawberry</label>
+        </div>
+        <div class="ingredient">
+            <input type="checkbox" id="blueberry" name="ingredient" value="Blueberry">
+            <label for="blueberry">Blueberry</label>
+        </div>
+        <div class="ingredient">
+            <input type="checkbox" id="mango" name="ingredient" value="Mango">
+            <label for="mango">Mango</label>
+        </div>
+        <div class="ingredient">
+            <input type="checkbox" id="Dahi" name="ingredient" value="Dahi">
+            <label for="Dahi">Dahi</label>
+        </div>
+        <div class="ingredient">
+            <input type="checkbox" id="kale" name="ingredient" value="Kale">
+            <label for="kale">Kale</label>
+        </div>
+        <div class="ingredient">
+            <input type="checkbox" id="pineapple" name="ingredient" value="Pineapple">
+            <label for="pineapple">Pineapple</label>
+        </div>
+        <button type="submit">Order</button>
+    </form>
+
+    <div id="smoothie-output">
+        <!-- Smoothie details will be displayed here -->
+    </div>
+ <!-- Link to external JavaScript file -->
+    <script src="script.js"></script> 
+</body>
+</html>
